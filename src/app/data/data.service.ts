@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import {Post} from '../Post';
 import {Observable, of} from 'rxjs';
 
 @Injectable({
@@ -7,7 +6,7 @@ import {Observable, of} from 'rxjs';
 })
 export class DataService {
 
-  ELEMENT_DATA: Post[] = [
+  ELEMENT_DATA = [
     {position: 0, title: 'Post One', category: 'Web Development', date_posted: new Date(), body: 'Body 1'},
     {position: 1, title: 'Post Two', category: 'Android Development', date_posted: new Date(), body: 'Body 2'},
     {position: 2, title: 'Post Three', category: 'IOS Development', date_posted: new Date(), body: 'Body 3'},
