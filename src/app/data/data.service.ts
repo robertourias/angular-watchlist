@@ -22,8 +22,8 @@ export class DataService {
 
   constructor() { }
 
-  getData(): Observable<Post[]> {
-    return of<Post[]>(this.ELEMENT_DATA);
+  getData(): Observable<any[]> {
+    return of<any[]>(this.ELEMENT_DATA);
   }
 
   getCategories() {
