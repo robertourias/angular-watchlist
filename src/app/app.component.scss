@@ -56,5 +56,15 @@ a:active {
 }
 
 .content {
-  background-color: #c48bc5ad;
+  position: relative;
 }
+
+.mat-tab-labels {
+  background-color: #a382de;
+
+  .mat-tab-label {
+    width: 50%;
+    color: white;
+  }
+}
+

@@ -1,8 +1,28 @@
 <mat-tab-group>
-  <mat-tab label="Para ver">
-    Lista de filmes
+  <mat-tab color="primary" label="Para ver">
+    <div class="card" *ngFor="let item of list">
+      <img class="card__thumb" [src]="item.image" [alt]="item.name">
+      <div class="card__details">
+        <h3 class="title">{{item.name}} (Netflix)</h3>
+        <button mat-mini-fab aria-label="Add">
+          <mat-icon>add</mat-icon>
+        </button>
+      </div>
+    </div>
   </mat-tab>
   <mat-tab label="Vistos">
-    Lista de filmes
+    <div class="card" *ngFor="let item of viewedList">
+      <img class="card__thumb" [src]="item.image" [alt]="item.name">
+      <div class="card__details">
+        <h3 class="title">{{item.name}} (Netflix)</h3>
+        <button mat-mini-fab aria-label="Add">
+          <mat-icon>add</mat-icon>
+        </button>
+      </div>
+    </div>
   </mat-tab>
 </mat-tab-group>
+
+<button mat-fab aria-label="Add" class="btn-add">
+  <mat-icon>add</mat-icon>
+</button>
