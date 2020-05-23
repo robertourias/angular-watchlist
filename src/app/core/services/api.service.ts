@@ -9,7 +9,7 @@ export class ApiService {
   httpOptions = {
     headers: new HttpHeaders({'Content-Type': 'application/json'})
   };
-  apiUrl = 'http://localhost:3000/';
+  apiUrl = 'http://localhost:3000';
 
   constructor() { }
 

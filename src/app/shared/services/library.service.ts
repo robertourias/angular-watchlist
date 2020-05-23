@@ -16,11 +16,11 @@ export class LibraryService {
     this.endpoint = this.api.getEndpoint('/library');
   }
 
-  getLibraryItems(): Observable<Library[]> {
-    return this.http.get<Library[]>(this.endpoint)
+  getLibraryItems(): Observable<any[]> {
+    return this.http.get<any[]>(this.endpoint)
       .pipe(
         tap(library => console.log('leu os itens')),
-        catchError(this.api.handleError<Library[]>('getLibraryItems', []))
+        catchError(this.api.handleError<any[]>('getLibraryItems', []))
       );
   }
 

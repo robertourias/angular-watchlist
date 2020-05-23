@@ -1,9 +1,9 @@
 <mat-tab-group>
   <mat-tab color="primary" label="Para ver">
     <div class="card" *ngFor="let item of list">
-      <img class="card__thumb" [src]="item.image" [alt]="item.name">
+      <img class="card__thumb" [src]="item.Poster" [alt]="item.Title">
       <div class="card__details">
-        <h3 class="title">{{item.name}} (Netflix)</h3>
+        <h3 class="title">{{item.Title}} (Netflix)</h3>
         <button mat-mini-fab aria-label="Add">
           <mat-icon>add</mat-icon>
         </button>
