@@ -13,6 +13,7 @@ import { MyListComponent } from './pages/mylist/mylist.component';
 import { CategoriesComponent } from './pages/categories/categories.component';
 import { FavoritesComponent } from './pages/favorites/favorites.component';
 import { ListComponent } from './shared/list/list.component';
+import { SortService } from './shared/services/sort.service';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { ListComponent } from './shared/list/list.component';
   providers: [
     { provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, useValue: { appearance: 'fill' } },
     DataService,
+    SortService
   ],
   bootstrap: [AppComponent]
 })

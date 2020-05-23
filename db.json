@@ -1,0 +1,53 @@
+{
+  "library": [
+    {
+      "id": 1,
+      "Title": "Mulan",
+      "Year": "2020",
+      "Rated": "PG-13",
+      "Released": "20 Mar 2020",
+      "Runtime": "120 min",
+      "Genre": "Ação, Aventura",
+      "Director": "Niki Caro",
+      "Writer": "",
+      "Actors": "Liu Yifey",
+      "Plot": "A aclamada cineasta Niki Caro dá vida à épica lenda da icônica guerreira chinesa em 'Mulan', da Disney, em que uma jovem destemida arrisca a própria vida por amor à família e à pátria para se tornar uma das maiores guerreiras de toda a China. Quando o Imperador da China emite um decreto estabelecendo que um homem de cada família deve servir no exército imperial para defender o país dos invasores do Norte, Hua Mulan, a filha mais velha de um honrado guerreiro se apresenta no lugar de seu pai adoentado. Disfarçada de homem, como Hua Jun, ela é testada a cada etapa do caminho e deve controlar sua força interior e abraçar seu verdadeiro potencial. É uma jornada épica que vai transformá-la em uma reverenciada guerreira e levá-la a conquistar o respeito de uma nação agradecida... e um pai orgulhoso.",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "",
+      "Poster": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSDiNL4mplz50DO7jRQSjQZVuzqlvG-Kq5pfxK6DNKQQPbL2N2w",
+      "Score": "66",
+      "imdbRating": "8.5",
+      "imdbVotes": "951,885",
+      "imdbID": "tt0482571",
+      "Type": "movie",
+      "DVD": "20 Feb 2007",
+      "BoxOffice": "$53,100,000",
+      "Production": "Buena Vista Pictures",
+      "Website": "http://touchstone.movies.go.com/index.html?dlink=prestige",
+      "Response": "True",
+      "Viewed": false
+    },
+    {
+      "id": 2,
+      "Title": "Vingadores: Ultimato",
+      "Runtime": "120 min",
+      "Genre": "Ação, Aventura",
+      "Plot": "",
+      "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMwtU95JygcmCq4e3XPpL9W0ATjGFoQCQm16dbpIp7BM36B7lH",
+      "Score": "66",
+      "Viewed": true
+    }
+  ],
+  "genres": [
+    { "id": 1, "name": "Aventura" },
+    { "id": 1, "name": "Ação" },
+    { "id": 1, "name": "Terror" },
+    { "id": 1, "name": "Comédia Romântica:" },
+    { "id": 1, "name": "Suspense" },
+    { "id": 1, "name": "Comédia" },
+    { "id": 1, "name": "Musical" },
+    { "id": 1, "name": "Drama" },
+    { "id": 1, "name": "Disney" }
+  ]
+}
