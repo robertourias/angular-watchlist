@@ -10,6 +10,7 @@ import { MatTableModule } from '@angular/material/table';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
+import { MatTabsModule } from '@angular/material/tabs';
 
 @NgModule({
   declarations: [],
@@ -25,6 +26,7 @@ import { MatSelectModule } from '@angular/material/select';
     MatDialogModule,
     MatInputModule,
     MatSelectModule,
+    MatTabsModule,
   ],
   exports: [
     MatSidenavModule,
@@ -37,6 +39,7 @@ import { MatSelectModule } from '@angular/material/select';
     MatDialogModule,
     MatInputModule,
     MatSelectModule,
+    MatTabsModule,
   ]
 })
 export class MaterialModule { }

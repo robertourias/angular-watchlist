@@ -9,16 +9,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { MaterialModule } from './material.module';
 import { DataService } from './data/data.service';
 import { AppComponent } from './app.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { CategoriesComponent } from './categories/categories.component';
-import { FavoritesComponent } from './favorites/favorites.component';
+import { MyListComponent } from './pages/mylist/mylist.component';
+import { CategoriesComponent } from './pages/categories/categories.component';
+import { FavoritesComponent } from './pages/favorites/favorites.component';
+import { ListComponent } from './shared/list/list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent,
+    MyListComponent,
     CategoriesComponent,
-    FavoritesComponent
+    FavoritesComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
