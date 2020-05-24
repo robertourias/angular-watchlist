@@ -16,12 +16,12 @@ export class MyListComponent implements OnInit {
 
   ngOnInit() {
     this.loadList();
-    // this.sortService.sortItems(this.list);
   }
 
   loadList() {
     this.libraryService.getLibraryItems().subscribe((items) => {
       this.list = items;
+      this.sortService.sortItems(items);
     });
   }
 

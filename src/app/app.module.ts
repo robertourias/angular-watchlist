@@ -14,6 +14,7 @@ import { CategoriesComponent } from './pages/categories/categories.component';
 import { FavoritesComponent } from './pages/favorites/favorites.component';
 import { ListComponent } from './shared/list/list.component';
 import { SortService } from './shared/services/sort.service';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SortService } from './shared/services/sort.service';
     MyListComponent,
     CategoriesComponent,
     FavoritesComponent,
-    ListComponent
+    ListComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
