@@ -1,0 +1,65 @@
+<mat-sidenav #sidenav [mode]="'over'">
+  <button mat-icon-button (click)="sidenav.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <a [matMenuTriggerFor]="profileMenu">
+    <mat-icon class="icon img-profile">account_circle</mat-icon>
+    <dl>
+      <dt>Roberto Nicoletti</dt>
+      <dd>roberto.urias@gmail.com</dd>
+    </dl>
+  </a>
+  <mat-menu #profileMenu="matMenu" xPosition="after">
+    <a mat-list-item routerLink="/">
+      <mat-icon class="icon">build</mat-icon>
+        <span class="label">Configurações</span>
+    </a>
+
+    <a mat-list-item routerLink="/">
+      <mat-icon class="icon">login</mat-icon>
+        <span class="label">Sair</span>
+    </a>
+    <button mat-menu-item>Sair</button>
+  </mat-menu>
+
+  <mat-divider></mat-divider>
+  <mat-nav-list>
+    <a mat-list-item routerLink="/">
+      <mat-icon class="icon">home</mat-icon>
+        <span class="label">Home</span>
+    </a>
+    </mat-nav-list>
+    <mat-nav-list>
+      <a mat-list-item routerLink="/categories">
+        <mat-icon class="icon">folder</mat-icon>
+          <span class="label">Categorias</span>
+      </a>
+    </mat-nav-list>
+    <mat-nav-list>
+      <a mat-list-item routerLink="/">
+        <mat-icon class="icon">whatshot</mat-icon>
+          <span class="label">Mais populares</span>
+      </a>
+    </mat-nav-list>
+    <mat-nav-list>
+      <a mat-list-item routerLink="/">
+        <mat-icon class="icon">star</mat-icon>
+          <span class="label">Mais classificações</span>
+      </a>
+    </mat-nav-list>
+
+    <mat-divider></mat-divider>
+
+    <mat-nav-list>
+      <a mat-list-item routerLink="/">
+        <mat-icon class="icon">build</mat-icon>
+          <span class="label">Configurações</span>
+      </a>
+    </mat-nav-list>
+    <mat-nav-list>
+      <a mat-list-item routerLink="/">
+        <mat-icon class="icon">login</mat-icon>
+          <span class="label">Sair</span>
+      </a>
+    </mat-nav-list>
+</mat-sidenav>

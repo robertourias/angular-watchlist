@@ -1,0 +1,18 @@
+<mat-toolbar color="primary">
+  <div fxHide.gt-xs>
+    <button mat-icon-button (click)="sidenav.toggle()">
+     <mat-icon>menu</mat-icon>
+    </button>
+ </div>
+
+  <div fxFlex fxLayout fxLayoutAlign="flex-end"  fxHide.xs>
+     <ul fxLayout fxLayoutGap="20px" class="navigation-items">
+         <li>
+           <a routerLink="/">
+               <mat-icon class="icon">home</mat-icon>
+               <span class="label">Catalogo de Filmes e series</span>
+           </a>
+         </li>
+     </ul>
+  </div>
+ </mat-toolbar>

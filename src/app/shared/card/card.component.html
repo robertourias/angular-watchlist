@@ -1,3 +1,7 @@
-<p>
-  card works!
-</p>
+<div class="card" *ngFor="let item of dataList">
+  <img class="card__thumb" src="item.Poster" alt="item.Title">
+  <div class="card__details">
+    <h3 class="title">{{item.Title}} (Netflix)</h3>
+    <a class="card__add"><mat-icon>add</mat-icon></a>
+  </div>
+</div>

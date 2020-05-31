@@ -1,9 +1,12 @@
-<mat-tab-group>
-  <mat-tab color="primary" label="Populares">
-    Populares
+<section class="section search">
+  <mat-form-field appearance="outline">
+    <mat-label>Procurar</mat-label>
+    <input matInput placeholder="Procurar">
+    <mat-icon matSuffix>search</mat-icon>
+  </mat-form-field>
+</section>
 
-  </mat-tab>
-  <mat-tab label="Melhor avaliação">
-    Melhor avaliação
-  </mat-tab>
-</mat-tab-group>
+<section class="section cards">
+  <app-card [dataList]="itemList"></app-card>
+</section>
+

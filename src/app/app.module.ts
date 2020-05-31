@@ -15,6 +15,9 @@ import { FavoritesComponent } from './pages/favorites/favorites.component';
 import { ListComponent } from './shared/list/list.component';
 import { SortService } from './shared/services/sort.service';
 import { HomeComponent } from './pages/home/home.component';
+import { CardComponent } from './shared/card/card.component';
+import { NavbarComponent } from './core/navbar/navbar.component';
+import { HeaderComponent } from './core/header/header.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { HomeComponent } from './pages/home/home.component';
     CategoriesComponent,
     FavoritesComponent,
     ListComponent,
-    HomeComponent
+    HomeComponent,
+    CardComponent,
+    NavbarComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
